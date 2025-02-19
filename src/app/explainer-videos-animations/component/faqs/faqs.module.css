@@ -1,0 +1,165 @@
+.display {
+  background-color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.locBox {
+  background-image: linear-gradient(to right, #d50d12, #9c1418);
+  margin-top: 1%;
+  border-radius: 10px;
+  width: 98%;
+}
+
+.heading {
+  color: black;
+  font-size: 35px;
+  text-align: center;
+}
+
+.active {
+  background-color: red;
+}
+
+.wordsmost4::after {
+  position: absolute;
+  content: "";
+  background-color: #dbd7d7;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  top: -10px;
+  right: 0;
+  margin: 0 auto;
+}
+
+.wordsmost4 {
+  max-width: 905px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 3%;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 4%;
+}
+
+.tabsBtn {
+  background-image: linear-gradient(to right, black, #596062);
+  border-radius: 11px !important;
+  height: 65px;
+  font-size: 12px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  padding-left: 4%;
+  width: 98%;
+  margin-bottom: 1%;
+  position: relative;
+  padding-right: 20%;
+  cursor: pointer;
+}
+
+.tabsBtn img {
+  position: absolute;
+  right: 4%;
+  width: 4%;
+}
+
+.locBox ul li {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 13px;
+  list-style: none;
+  margin-left: 7%;
+  padding-bottom: 2px;
+}
+
+.locBox ul {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  position: relative;
+  width: 98%;
+  margin-bottom: 1%;
+}
+
+.locBox ul li::after {
+  position: absolute;
+  content: "";
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  left: 3%;
+  margin-top: 6px;
+  border-radius: 50px;
+}
+
+.ani {
+  animation: 0.7s ease-in-out forwards growDown;
+  transform-origin: top;
+}
+
+@keyframes growDown {
+  0% {
+    transform: scaleY(0);
+  }
+
+  80% {
+    transform: scaleY(1.5);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@media (min-width: 1200px) {
+  .pointer {
+    max-width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  .pointer {
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .display {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .wordsmost4 {
+    max-width: 905px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 6%;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 6%;
+  }
+
+  .locBox ul li::after {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .tabsBtn {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,27 @@
+.cardsMainDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.cards {
+    max-width: 32%;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+
+@media only screen and (max-width: 1099px) {
+    .cards {
+        max-width: 48%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .cards {
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+}

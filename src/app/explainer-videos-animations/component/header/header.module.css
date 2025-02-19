@@ -1,0 +1,102 @@
+.display {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  color: #fff;
+}
+
+.pointer {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.poster {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+  align-items: center;
+}
+
+.got {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.got1 {
+  background-color: #d50d12;
+  width: 151px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.got a {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+@media (min-width: 1200px) {
+  .pointer {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  .pointer {
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .poster {
+    gap: 15px;
+  }
+
+  .got a {
+    font-size: 9px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 991px) {
+  .display {
+    position: fixed;
+    background: #000;
+    padding-bottom: 15px;
+    z-index: 99999999;
+  }
+
+  .poster {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .poster {
+    flex-direction: column;
+  }
+
+  .got {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .pointer {
+    gap: 20px;
+  }
+}

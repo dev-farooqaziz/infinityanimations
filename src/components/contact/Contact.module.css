@@ -1,0 +1,72 @@
+.imgBefore {
+  transition: all 0.1s ease-in-out;
+}
+
+.imgBefore::before {
+  content: url(../../../public/contact/contact-hvr1.png);
+  position: absolute;
+  top: -20%;
+  right: 8%;
+  opacity: 0.8;
+  display: none;
+}
+
+.imgBefore::after {
+  content: url(../../../public/contact/contact-hvr2.png);
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  opacity: 0.8;
+  display: none;
+}
+
+.imgBefore:hover::after,
+.imgBefore:hover::before {
+  display: block;
+  transition: all 0.1s ease-in-out;
+}
+
+
+/* Media Query Start */
+
+@media only screen and (max-width: 1920px) {
+  .imgBefore::before {
+    right: -18%;
+  }
+
+  .imgBefore::after {
+    right: -21%;
+  }
+}
+
+@media only screen and (max-width: 1799px) {
+  .imgBefore::before {
+    right: -2%;
+  }
+
+  .imgBefore::after {
+    right: -5%;
+  }
+}
+
+@media only screen and (max-width: 1599px) {
+  .imgBefore::before {
+    right: 8%;
+  }
+
+  .imgBefore::after {
+    right: 3%;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .imgBefore::before {
+    right: 8%;
+  }
+
+  .imgBefore::after {
+    right: 5%;
+  }
+}
+
+/* Media Query end */

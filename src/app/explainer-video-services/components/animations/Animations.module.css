@@ -1,0 +1,22 @@
+.counter {
+  position: relative;
+}
+
+.counter::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2px;
+  height: 150px;
+  background-color: #707070;
+}
+
+.counter:first-child:before {
+  display: none;
+}
+
+@media only screen and (max-width: 640px) {
+
+}
+

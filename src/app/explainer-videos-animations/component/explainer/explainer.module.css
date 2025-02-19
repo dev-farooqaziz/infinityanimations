@@ -1,0 +1,148 @@
+.display {
+  background-color: white;
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+
+.today {
+  background: url(../../../../../public/banner/path.png);
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: cover;
+  padding-bottom: 70px;
+  padding-top: 70px;
+  position: absolute;
+  top: 15%;
+  width: 45%;
+  left: 35px;
+  padding: 35px 13px 39px 15px;
+  border-radius: 25px;
+}
+
+.newscool {
+  position: relative;
+}
+
+.today h3 {
+  font-size: 30px;
+  font-family: "SF-Pro-Display";
+  font-weight: 800;
+  line-height: 1.2;
+  color: white;
+}
+
+.today p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  border-top: 1px solid gray;
+  padding-bottom: 7px;
+  padding-top: 5px;
+  margin-top: 12px;
+}
+.scale {
+  background-color: #d50d12;
+  width: 151px;
+  height: 40px;
+  border: unset;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 14px;
+}
+.sefve {
+  background-color: white;
+  width: max-content;
+  height: 40px;
+  border: unset;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: black;
+  font-size: 14px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.message {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.newlong {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+.pont {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+@media (min-width: 1200px) {
+  .pointer {
+    max-width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .today {
+    width: 100%;
+    position: unset;
+  }
+  .newyork {
+    display: none;
+  }
+  .display {
+    padding-bottom: 80px;
+  }
+  .today p {
+    padding-top: 12px;
+    margin-top: 12px;
+    padding-bottom: 13px;
+  }
+}
+@media (min-width: 1400px) {
+  .today p {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    border-top: 1px solid gray;
+    padding-bottom: 7px;
+    padding-top: 9px;
+    margin-top: 12px;
+  }
+
+  .today h3 {
+    font-size: 34px;
+    font-family: "SF-Pro-Display";
+    font-weight: 800;
+    line-height: 1.2;
+  }
+
+  .pointer {
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 767px) {
+  .display {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .message {
+    flex-direction: column;
+  }
+}

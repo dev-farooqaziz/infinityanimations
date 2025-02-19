@@ -1,0 +1,66 @@
+.card1 {
+  background: #fff;
+}
+.card1:hover {
+  background: #003262;
+}
+
+.card1:hover h3 {
+  color: white !important;
+}
+
+.card1:hover p {
+  color: white !important;
+}
+
+.card1:hover button {
+  background: white !important;
+}
+
+.cardActive {
+  background: #003262;
+}
+
+.cardActive h3 {
+  color: white !important;
+}
+
+.cardActive p {
+  color: white !important;
+}
+
+.cardActive button {
+  background: white !important;
+}
+
+.card2:hover {
+  background: #003262;
+}
+
+.card2:hover h3 {
+  color: white !important;
+}
+
+.card2:hover p {
+  color: white !important;
+}
+
+.card2:hover button {
+  background: white !important;
+}
+
+.card3:hover {
+  background: #003262;
+}
+
+.card3:hover h3 {
+  color: white !important;
+}
+
+.card3:hover p {
+  color: white !important;
+}
+
+.card3:hover button {
+  background: white !important;
+}

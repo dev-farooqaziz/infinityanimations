@@ -1,0 +1,267 @@
+
+.shadow {
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, */
+    /* rgba(0, 0, 0, 0) 0px 4px 6px -3px, rgba(0, 0, 0, 0) 0px 1px 0px inset; */
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.portfolioSec {
+    position: relative
+}
+
+.folioBox{
+  position: relative;
+  z-index: 3;
+}
+
+@-webkit-keyframes move {
+  from {
+      background-position: 2px 19px
+  }
+
+  to {
+      background-position: 500px 19px
+  }
+}
+
+
+.portfolioSec::after {
+  content: "";
+  position: absolute;
+  right: -100px;
+  bottom: 85px;
+  background: url("../../../../../public/illustration-experts/port-af-img.png") center center/cover no-repeat;
+  width: 529px;
+  z-index: 1;
+  height: 529px;
+  animation: 60s linear infinite asteroid
+}
+
+
+
+@-webkit-keyframes asteroid {
+  0% {
+      -webkit-transform: rotate(0)
+  }
+
+  100% {
+      -webkit-transform: rotate(360deg)
+  }
+}
+
+@-moz-keyframes asteroid {
+  0% {
+      -moz-transform: rotate(0)
+  }
+
+  100% {
+      -moz-transform: rotate(360deg)
+  }
+}
+
+@-ms-keyframes asteroid {
+  0% {
+      -ms-transform: rotate(0)
+  }
+
+  100% {
+      -ms-transform: rotate(360deg)
+  }
+}
+
+@-o-keyframes asteroid {
+  0% {
+      -o-transform: rotate(0)
+  }
+
+  100% {
+      -o-transform: rotate(360deg)
+  }
+}
+
+@keyframes asteroid {
+  0% {
+      transform: rotate(0)
+  }
+
+  100% {
+      transform: rotate(360deg)
+  }
+}
+
+
+@media only screen and (max-width: 1026px) {
+  .portfolioSec::after {
+      display: none;
+  }
+}
+
+.box18 {
+  overflow: hidden;
+  text-align: center;
+  position: relative
+}
+
+
+.box18:after,
+.box18:before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, .35);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0)
+}
+
+.box18:hover:after,
+.box18:hover:before {
+  -webkit-transform: scale(400);
+  -moz-transform: scale(400);
+  -ms-transform: scale(400);
+  -o-transform: scale(400);
+  transform: scale(400)
+}
+
+.box18:before {
+  -o-transition: .5s linear .3s;
+  -moz-transition: .5s linear .3s;
+  -ms-transition: .5s linear .3s;
+  -webkit-transition: .5s linear .3s;
+  transition: .5s linear .3s
+}
+
+.box18:hover:before {
+  -moz-transition-delay: 0s;
+  -webkit-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  -ms-transition-delay: 0s;
+  transition-delay: 0s
+}
+
+.box18:after {
+  -o-transition: .5s linear .6s;
+  -moz-transition: .5s linear .6s;
+  -ms-transition: .5s linear .6s;
+  -webkit-transition: .5s linear .6s;
+  transition: .5s linear .6s
+}
+
+.box18:hover:after {
+  -moz-transition-delay: .2s;
+  -webkit-transition-delay: .2s;
+  -o-transition-delay: .2s;
+  -ms-transition-delay: .2s;
+  transition-delay: .2s
+}
+
+.box18 img {
+  width: 100%;
+  height: auto;
+  
+}
+
+.box18 .boxContent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: 0 0;
+  color: #fff;
+  padding-top: 25px;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -ms-transition: .3s linear;
+  -o-transition: .3s linear;
+  -webkit-transition: .3s linear;
+  -moz-transition: .3s linear;
+  transition: .3s linear;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box18:hover .boxContent {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -moz-transition-delay: .4s;
+  -webkit-transition-delay: .4s;
+  -o-transition-delay: .4s;
+  -ms-transition-delay: .4s;
+  transition-delay: .4s
+}
+
+.box18 .title {
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  border:1px solid red
+}
+
+.box18 .description {
+  font-size: 14px;
+  font-style: italic;
+  padding: 0 10px;
+  margin: 15px 0;
+}
+
+.box18 .read-more {
+  display: block;
+  width: 120px;
+  background: #178993;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 10px 0;
+  margin: 0 auto
+}
+
+.cntct-bgst .area,
+.cntct-bgst .circles {
+  top: 0;
+  width: 100%;
+  position: absolute;
+  left: 0
+}
+
+@media only screen and (max-width:990px) {
+  .box18 {
+    margin-bottom: 30px
+  }
+}
+
+@media only screen and (max-width:479px) {
+  .box18 .boxContent {
+    padding-top: 0
+  }
+}
+
+@media only screen and (max-width:359px) {
+  .box18 .title {
+    padding-bottom: 10px
+  }
+}
+
+.box18:hover .boxContent i {
+  font-size: 40px;
+  color: #fff
+}

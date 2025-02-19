@@ -1,0 +1,33 @@
+{
+    "redirects": [
+      {
+        "source": "/^www\\.(.*)$/",
+        "destination": "https://infinityanimations.com/$1",
+        "permanent": false
+      },
+      {
+        "source": "/cgi-and-vfx",
+        "destination": "/cgi-and-vfx-services"
+      },
+      {
+        "source": "/portfolio",
+        "destination": "/video-animation-portfolio"
+      },
+      {
+        "source": "/logo-animation",
+        "destination": "/custom-logo-animation"
+      },
+      {
+        "source": "/architectural-services",
+        "destination": "/architectural-visualization"
+      },
+      {
+        "source": "/pricing",
+        "destination": "/video-animation-pricing"
+      },
+      {
+        "source": "/process",
+        "destination": "/video-animation-process"
+      }
+    ]
+  }

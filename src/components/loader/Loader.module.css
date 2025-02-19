@@ -1,0 +1,52 @@
+.animi {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 45, 75, 1) 0%,
+    rgba(245, 9, 11, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.loader .para {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-family: "SF-Regular", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.loader .para::before {
+  content: "";
+  width: 100px;
+  height: 3px;
+  color: #fff;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  animation: move 2.5s infinite;
+}
+
+@keyframes move {
+  0% {
+    background: #f5090b;
+    left: -100px;
+  }
+
+  50% {
+    background: #ff2d4b;
+    left: 0px;
+  }
+
+  100% {
+    background: #f5090b;
+    left: -100px;
+  }
+}
+
+/* ==========================Media-Queries========================== */
+
+@media screen and (max-width: 767px) {
+}

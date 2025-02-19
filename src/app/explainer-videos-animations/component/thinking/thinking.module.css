@@ -1,0 +1,127 @@
+.display {
+  background-color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: url(../../../../../public/banner/banner.jpg);
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: cover;
+}
+.heading {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+.typr:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.brand h3 {
+  font-size: 23px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  margin-top: 7%;
+}
+.brand p {
+  max-width: 245px;
+  padding-left: 5%;
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-top: 2%;
+}
+.heading span {
+  color: #d50d12;
+}
+.words {
+  max-width: 600px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 3%;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+.words::after {
+  position: absolute;
+  content: "";
+  background-color: #8b8b8b;
+  height: 2px;
+  width: 100%;
+  top: -7px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.data {
+  padding-top: 40px;
+  position: absolute;
+  top: 85px;
+}
+
+.note {
+  position: relative;
+}
+.datarow {
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.start {
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  position: relative;
+}
+
+.aswat {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.note {
+  width: 95% !important;
+}
+.start::after {
+  position: absolute;
+  content: "";
+  background-color: #cfc3c3;
+  width: 81%;
+  height: 1px;
+  top: -10px;
+  left: 28px;
+}
+.newpath {
+  position: relative;
+  top: 25px;
+  float: right;
+  z-index: 1;
+}
+@media (min-width: 1200px) {
+  .pointer {
+    max-width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (min-width: 1400px) {
+  .pointer {
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 767px) {
+  .display {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

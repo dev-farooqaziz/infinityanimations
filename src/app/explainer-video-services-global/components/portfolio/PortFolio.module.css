@@ -1,0 +1,23 @@
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0) 0px 4px 6px -3px,
+    rgba(0, 0, 0, 0) 0px 1px 0px inset;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.animi {
+  animation: scale 2s linear infinite;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}

@@ -1,0 +1,244 @@
+.display{
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 70px;
+
+}
+.heading {
+    color: black;
+    font-size: 35px;
+
+}
+.brand h3{
+    font-size: 23px;
+        font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    margin-top: 7%;
+}
+.brand p{
+    max-width: 245px;
+    padding-left: 5%;
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-top: 2%;
+}
+.heading span{
+    color: #d50d12;
+}
+.words {
+    max-width: 800px;
+    margin-top: 25px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+    margin-bottom: 3%;
+}
+.words::after {
+    position: absolute;
+    content: "";
+    background-color: #8b8b8b;
+    height: 2px;
+    width: 92%;
+    top: -5px;
+    left: 0;
+    right: 0;
+}
+
+.provenbg {
+    background: url(../../../../../public/banner/provenbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    border-radius: 50px;
+    position: relative;
+}
+.process{
+    width: 50%;
+    display: flex;
+    gap: 150px;
+    padding-left: 3%;
+}
+.provenbg{
+    display: flex;
+    position: relative;
+}
+.provenbg img {
+    position: absolute;
+    right: 0;
+    top: -8%;
+    width: 50%;
+}
+.soul h3 {
+    font-size: 50px;
+        font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #d50d12;
+}
+.soul p {
+    line-height: 1.1;
+    font-size: 14px;
+        font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #d50d12;
+}
+
+.soul3 h3 {
+    font-size: 50px;
+        font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #d50d12;
+    margin-top: 36%;
+}
+.soul3 p {
+    line-height: 1.1;
+    font-size: 14px;
+        font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #d50d12;
+}
+
+.soul1 h3 {
+    font-size: 50px;
+        font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: black;
+    margin-top: 60%;
+}
+.soul1 p {
+    line-height: 1.1;
+    font-size: 14px;
+        font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.soul2 h3 {
+    font-size: 50px;
+        font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: black;
+
+}
+.soul2 p {
+    line-height: 1.1;
+    font-size: 14px;
+        font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.provenbg::after {
+    content: "";
+    position: absolute;
+    left: 22%;
+    top: 12%;
+    height: 75%;
+    width: 2px;
+    color: #000;
+    background-color: #837f7f;
+}
+.provenbg::before {
+    content: "";
+    position: absolute;
+    left: 6%;
+    top: 51%;
+    height: 2px;
+    width: 35%;
+    color: #000;
+    background-color: #837f7f;
+}
+
+@media (min-width: 1200px) {
+    .pointer {
+        max-width: 1180px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 1400px) { 
+    .pointer {
+        max-width: 1320px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .provenbg img {
+        position: absolute;
+        right: 0;
+        top: -8%;
+        width: 44%;
+    }
+}
+@media (max-width: 1200px) {
+
+
+    .provenbg img {
+        position: unset;
+       display: none;
+    }
+    .process {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .provenbg::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 12%;
+        height: 75%;
+        width: 2px;
+        color: #000;
+        background-color: #837f7f;
+        right: 0;
+        margin: 0 auto;
+    }
+    .provenbg::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 51%;
+        height: 2px;
+        width: 76%;
+        color: #000;
+        background-color: #837f7f;
+        right: 0;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 480px) {  
+
+    .display{
+        background-color: white;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    
+    }
+
+}
+@media (max-width: 480px) { 
+.startup1 img{
+    display: none;
+}
+.soul h3 {
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #d50d12;
+    text-align: center;
+    margin-top: 0;
+}
+.soul1 h3, .soul3 h3, .soul2 h3{
+    margin-top: 0;
+    text-align: center;
+}
+}

@@ -1,0 +1,18 @@
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0) 0px 4px 6px -3px, rgba(0, 0, 0, 0) 0px 1px 0px inset;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.SwiperButtonNext,
+.SwiperButtonPrev {
+  background-color: white !important;
+  background-position: center;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  padding: 8px 16px;
+  border-radius: 100%;
+  border: 2px solid black;
+  color: red;
+}

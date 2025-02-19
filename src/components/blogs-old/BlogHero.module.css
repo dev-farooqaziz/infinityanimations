@@ -1,0 +1,115 @@
+.bannerImg:hover {
+  transform: scale(1.1);
+}
+
+.mainImg {
+  position: absolute;
+  bottom: -5%;
+  right: 6%;
+  width: 82%;
+}
+
+.topLeft {
+  width: 110px;
+  top: 35px;
+  left: 12%;
+  position: absolute;
+}
+
+.bannerImg:hover .topLeft {
+  transform: translate(-20px, 5px);
+}
+
+.topRight {
+  width: 60px;
+  top: 130px;
+  right: 15%;
+  position: absolute;
+}
+
+.bannerImg:hover .topRight {
+  transform: translate(50px, -40px);
+}
+
+.bottomRight {
+  position: absolute;
+  bottom: 50px;
+  right: 12%;
+  width: 60px;
+}
+
+.bannerImg:hover .bottomRight {
+  transform: translate(-75px, 30px);
+}
+
+@media only screen and (max-width: 1599px) {
+  .mainImg {
+    bottom: -5%;
+    right: 6%;
+    width: 75%;
+  }
+
+  .topLeft {
+    top: 75px;
+    left: 18%;
+  }
+
+  .topRight {
+    top: 180px;
+    right: 15%;
+  }
+
+  .bottomRight {
+    bottom: 50px;
+    right: 10%;
+  }
+}
+
+@media only screen and (max-width: 1499px) {
+  .mainImg {
+    bottom: 0%;
+    right: 6%;
+    width: 80%;
+  }
+
+  .topLeft {
+    top: 85px;
+    left: 15%;
+    width: 95px;
+  }
+
+  .topRight {
+    top: 180px;
+    right: 15%;
+  }
+
+  .bottomRight {
+    bottom: 80px;
+    right: 10%;
+  }
+}
+
+@media only screen and (max-width: 1299px) {
+
+  .topLeft {
+    top: 105px;
+    left: 15%;
+    width: 85px;
+  }
+
+  .topRight {
+    width: 50px;
+    top: 190px;
+    right: 15%;
+  }
+
+  .bottomRight {
+    width: 50px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .bannerImg {
+    display: none;
+  }
+}

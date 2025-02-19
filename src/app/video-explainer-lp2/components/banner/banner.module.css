@@ -1,0 +1,28 @@
+.headingParticle::before {
+    background-image: url(../../../../../public/video-explainer/form-line-img.png);
+}
+
+.discountbg::before {
+    background-image: url(../../../../../public/video-explainer/dis-form.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: -51px;
+    top: -10px;
+    content: '';
+    width: 101px;
+    height: 83px;
+    z-index: 0;
+    animation: popup .5s infinite ease-in-out alternate;
+}
+
+@keyframes popup {
+    0% {
+        transform: scale(1)
+    }
+
+    100% {
+        transform: scale(1.1)
+    }
+}

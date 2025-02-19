@@ -1,0 +1,37 @@
+.whatLookingFor {
+  position: relative;
+  padding: 30px 0 100px;
+  background: black;
+}
+
+.whatFro {
+  z-index: 3;
+  position: relative;
+}
+
+.whatLookingFor::before {
+  content: "";
+  background: url(../../../../../public/illustration-experts/looking-bf.png)
+    center center/cover no-repeat;
+  width: 237px;
+  height: 517px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 1;
+}
+
+.whatLookingFor::after {
+  content: "";
+  background: url(../../../../../public/illustration-experts/looking-af.png)
+    center center/cover no-repeat;
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  margin: auto;
+  z-index: 1;
+}

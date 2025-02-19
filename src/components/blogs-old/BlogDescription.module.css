@@ -1,0 +1,50 @@
+.Diver {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.DiverActive::after {
+    content: '';
+    position: absolute;
+    background: url(../../../public/inner-blogs/divider-arrow.svg);
+    left: 0;
+    right: auto;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    margin-left: -1px;
+}
+
+.DiverHover:hover::before {
+    content: '';
+    position: absolute;
+    background: url(../../../public/inner-blogs/divider-arrow.svg);
+    left: 0;
+    right: auto;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    margin-left: -1px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.circle {
+    position: relative;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start; */
+    height: 180px;
+}
+
+.circle::before {
+    content: '';
+    position: absolute;
+    background: url(../../../public/inner-blogs/circle.svg);
+    right: 0px;
+    width: 180px;
+    height: 180px;
+    background-repeat: no-repeat
+}

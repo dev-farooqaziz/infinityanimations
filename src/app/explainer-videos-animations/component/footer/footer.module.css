@@ -1,0 +1,210 @@
+.touch {
+  background: url(../../../../../public/banner/stutu.jpg);
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: cover;
+  padding: 80px 0;
+  position: relative;
+}
+
+.touchnow {
+  font-size: 32px;
+  font-family: "SF-Pro-Display";
+  font-weight: 800;
+  color: #fff;
+}
+
+.touchnow span {
+  color: #d50d12;
+}
+
+.wordsmosth {
+  max-width: 800px;
+  position: relative;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 8%;
+  margin-top: 3%;
+  color: #fff;
+}
+
+.wordsmosth::after {
+  position: absolute;
+  content: "";
+  background-color: #545353;
+  height: 2px;
+  width: 62%;
+  left: 0;
+  right: 0;
+  bottom: -7px;
+}
+
+.touch .form2 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 2%;
+  height: 41px;
+}
+
+.touch .form2 input {
+  background-color: #565656;
+  border: unset;
+  width: 100%;
+  border-radius: 7px;
+  padding-left: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  height: 100%;
+}
+
+.touch .form2 input::placeholder {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.megg::placeholder {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.megg {
+  min-height: calc(1.5em + 0.75rem + 2px);
+  background-color: #565656;
+  border: unset;
+  width: 100%;
+  border-radius: 7px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.showcas {
+  width: 180px;
+  height: 43px;
+  background-color: #d50d12;
+  color: white;
+  border: unset;
+  border-radius: 10px;
+  font-size: 13px;
+  margin-top: 1%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.copy {
+  background-color: #979797;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.newtab {
+  background-color: #565656;
+  height: 300px;
+  border-radius: 25px;
+  display: flex;
+  padding: 0 5%;
+  width: 60%;
+  align-items: center;
+  margin-left: auto;
+}
+
+.newfight li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  display: flex;
+  gap: 10px;
+}
+
+.longton {
+  background-color: #979797;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.world1 p {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.animatio {
+  position: absolute;
+  bottom: 5%;
+  right: 65px;
+}
+
+.touch input:focus,
+.touch textarea:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #5b5b5b;
+  background-color: black;
+}
+
+.touch textarea {
+  background-color: #565656;
+  border: unset;
+  width: 100%;
+  border-radius: 7px;
+  padding-left: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  resize: none;
+}
+
+@media (min-width: 1200px) {
+  .pointer {
+    max-width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  .pointer {
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .newtab {
+    width: 320px;
+  }
+}
+
+@media (max-width: 991px) {
+  .newtab {
+    padding-left: 3%;
+  }
+}
+
+@media (max-width: 767px) {
+  .animatio {
+    display: none;
+  }
+
+  .touch {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .newtab {
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .wordsmosth::after {
+    width: 100%;
+  }
+}

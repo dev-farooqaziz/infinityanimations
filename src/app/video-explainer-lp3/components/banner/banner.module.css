@@ -1,0 +1,44 @@
+.discountbg {
+  position: absolute;
+  top: -2%;
+  right: -10%;
+  width: 35%;
+  animation: popup 0.5s infinite ease-in-out alternate;
+}
+
+@keyframes popup {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.banForm {
+  background: transparent;
+  backdrop-filter: blur(10px);
+}
+
+.banForm input,
+.banForm textarea {
+  background: #00000059;
+  backdrop-filter: blur(100px);
+}
+
+@media screen and (max-width: 991px) {
+  .discountbg {
+    top: -8%;
+    right: -10%;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .discountbg {
+    top: -4%;
+    right: -2%;
+    width: 25%;
+  }
+}

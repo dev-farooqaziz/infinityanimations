@@ -1,0 +1,28 @@
+.ani {
+  animation: 0.7s ease-in-out forwards growDown;
+  transform-origin: top;
+}
+
+@keyframes growDown {
+  0% {
+    transform: scaleY(0);
+  }
+
+  80% {
+    transform: scaleY(1.5);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.list {
+  list-style-type: disc;
+  padding-left: 3px;
+  margin-left: 8px;
+}
+.list::marker {
+  color: #003262;
+  font-size: 25px;
+}
